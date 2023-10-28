@@ -1,0 +1,45 @@
+body{
+font-family: 'Tajawal', sans-serif;
+color: #333;
+background-color: #eee;
+}
+.navbar{
+    box-shadow: 0px 3px 6px #45A140;
+}
+.nav-item{
+    margin: 0px 10px;
+}
+.nav-link{
+    font-size: 1.2rem ;
+    font-weight: 500;
+    color: #45A140;
+
+}
+.nav-link.active{
+color: #20591d !important;
+
+}
+header{
+    min-height: 100vh;
+    
+    background: linear-gradient(rgba(9, 53, 7, 0.8),rgba(9, 53, 7, 0.8)),url(../images/pexels-nubia-navarro-\(nubikini\)-1517355.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.image1{
+    width: 60%;
+    height: 100%;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #72d79052;
+    
+}
+.accordion-button:focus {
+    box-shadow: 0px 0px 6px #45A140;
+    border-color:#45A140 ;
+}
+.auther{
+   width: 120px;
+   margin-top: -20%;
+}
